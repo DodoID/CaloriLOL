@@ -1,0 +1,149 @@
+/* Basic Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navigation Styles */
+.navbar {
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.carilogo {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.navbar .logo {
+  font-weight: bold;
+}
+
+/* Lighter color for hover effect */
+.navbar a:hover {
+  color: #939d9b;
+  text-decoration: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+#heading{
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+}
+
+#subheading{
+  text-align: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+#user-info-form {
+  text-align: center;
+}
+
+#user-info-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#user-info-form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+#search-button {
+  background-color: #8d0a82;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+#user-input-section,
+#result-section {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 1rem;
+}
+
+#user-input-section {
+  margin-bottom: 2rem;
+}
+
+#user-details-form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+#user-details-form input,
+#user-details-form select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+#user-details-form input[type="submit"] {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#result-section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #f4f4f4;
+}
+
+.img-fluid {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  align-items: center;
+  margin: 20px;
+  border-radius: 50%;
+}
+/* Footer Styles */
+
+/* Add media queries and other responsive styles as needed */
